@@ -1,0 +1,15 @@
+# Release zips (attach to GitHub releases, don't commit)
+*.zip
+dist/
+
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+
+# Editors / OS cruft
+.idea/
+.vs/
+.vscode/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db

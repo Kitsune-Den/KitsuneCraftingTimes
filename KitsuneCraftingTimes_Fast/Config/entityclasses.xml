@@ -1,0 +1,13 @@
+<configs>
+    <!-- KitsuneCraftingTimes (Fast): 75% less crafting time.
+         Vanilla CraftingTime passive on the player, so it applies to every recipe the
+         player queues (backpack + workstations) and shows in the recipe UI.
+         perc_add stacks additively with perks (Advanced Engineering, Pack Mule, etc.);
+         the game clamps the result at 0, so a big enough stack means instant crafts.
+         playerFemale extends playerMale, so effect_groups carry over to both. -->
+    <append xpath="/entity_classes/entity_class[@name='playerMale']">
+        <effect_group name="KitsuneCraftingTimes">
+            <passive_effect name="CraftingTime" operation="perc_add" value="-0.75"/>
+        </effect_group>
+    </append>
+</configs>
