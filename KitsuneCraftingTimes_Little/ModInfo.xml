@@ -3,7 +3,7 @@
     <!-- Every tier shares the same Name on purpose: if two tiers end up in Mods/, the game loads only one instead of stacking them. -->
     <Name value="KitsuneCraftingTimes" />
     <DisplayName value="Kitsune Crafting Times (Little)" />
-    <Version value="1.0.0" />
+    <Version value="1.0.1" />
     <Description value="Crafting takes 25% less time (0.75x the vanilla craft time) for every recipe, in the backpack and at every workstation. XML-only, server-side, EAC safe. Install ONE tier only." />
     <Author value="AdaInTheLab" />
     <Website value="https://github.com/Kitsune-Den/KitsuneCraftingTimes" />
